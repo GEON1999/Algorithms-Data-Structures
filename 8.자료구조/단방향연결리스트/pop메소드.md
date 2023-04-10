@@ -1,3 +1,4 @@
+```
 class Node{
     constructor(val){
         this.val = val;
@@ -48,3 +49,4 @@ var list = new SinglyLinkedList()
 list.push("HELLO") 
 list.push("GOODBYE")
 list.push("!")
+```
