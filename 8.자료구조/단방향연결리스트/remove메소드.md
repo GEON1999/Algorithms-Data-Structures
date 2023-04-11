@@ -1,6 +1,5 @@
-### insert 메소드
-- index 인자와 value 인자를 받고, 해당 index 에 value 를 삽입함
-- 기존 index 에 위치해있던 node 는 삭제하는 것이 아닌 삽입된 새로운 node 뒤에 위치하게 됨
+### remove 메소드
+- index 인자에 위치한 node 를 remove 함
 
 ```
 class Node{
