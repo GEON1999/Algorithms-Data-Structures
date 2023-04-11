@@ -99,7 +99,7 @@ class SinglyLinkedList{
         var foundNode = this.get(index);
         // get 메소드를 통해 null 혹은 해당 index 의 node 를 찾음
         if(foundNode){
-            foundeNode.val = val;
+            foundNode.val = val;
             return true;
         }
         // null 이 아닌 노드를 찾은 경우 foundNode 에 해당 node 가 부여되어 있고,
