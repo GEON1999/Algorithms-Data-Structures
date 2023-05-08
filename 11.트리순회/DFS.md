@@ -1,4 +1,4 @@
-# DFS (전위 순회)
+# DFS
 Depth-First Search 깊이 우선 탐색
 - 루트 노드에서 시작해서 다음 분기로 넘어가기 전, 해당 분기를 완벽하게 탐색하는 방법
 - 미로 탐색 시 한 방향으로 끝까지 나아간 후 막히면 가장 가까웠던 갈림길에서 다른 방향으로 끝까지 탐색하고를 반복하는 과정과 비슷함
@@ -88,11 +88,23 @@ class BinarySearchTree {
         return data;
     }
     DFSPreOrder(){
+    // 전위순회
         var data = [];
         function traverse(node){
             data.push(node.value);
             if(node.left) traverse(node.left);
             if(node.right) traverse(node.right);
+        }
+        traverse(this.root);
+        return data;
+    }
+    DFSPostOrder(){
+    // 후위순회
+        var data = [];
+        function traverse(node){
+            if(node.left) traverse(node.left);
+            if(node.right) traverse(node.right);
+            data.push(node.value);
         }
         traverse(this.root);
         return data;
