@@ -50,6 +50,7 @@ class SinglyLinkedList{
         // 현재 head 를 currentHead 변수에 값 부여
         this.head = currentHead.next;
         // 현재 head 를 head 다음 노드로 변경
+        this.length--;
         if(this.length === 0){
             this.tail = null;
             // 마지막 노드를 지웠다면 tail 노드 값이 null 가 되도록
