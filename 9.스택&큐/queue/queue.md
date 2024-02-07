@@ -9,6 +9,14 @@
   - 삽입을 앞에서부터 뒤로하고 맨 앞에서부터 제거하는 방법과 뒤에서 앞으로 삽입하고 맨 뒤에서 제거하는 방법이 있다.
   - 뒤에서부터 앞으로 node 를 쌓으면, 제거 시 단일연결리스트의 경우 nodelist 를 모두 순회해야하기에 비효율적이다. 그럼으로 push 와 shift 의 방식을 사용하는 것이 좋다.
 
+### BIG O of STACKS
+- insertion - O(1)
+- Removal - O(1)
+- Searching - O(N)
+- Access - O(N)
+
+</br>
+
 ```
 class Node {
     constructor(value){
