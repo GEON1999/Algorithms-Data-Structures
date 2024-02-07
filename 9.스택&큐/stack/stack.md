@@ -9,3 +9,9 @@
 
 - 코딩을 하다, ctrl + z 를 누르면 마지막에 작성한 코드부터 실행을 취소한다.
 - 브라우저 방문기록은 제일 최근 것이 맨 위에 있고, 위에서부터 제거한다.
+
+### BIG O of STACKS
+- insertion - O(1)
+- Removal - O(1)
+- Searching - O(N)
+- Access - O(N)
