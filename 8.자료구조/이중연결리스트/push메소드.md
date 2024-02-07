@@ -30,7 +30,7 @@ class DoublyLinkedList{
     }
 }
 
-var list = new SinglyLinkedList()
+var list = new DoublyLinkedList()
 list.push("HELLO")
 list.push("GOODBYE")
 ```
