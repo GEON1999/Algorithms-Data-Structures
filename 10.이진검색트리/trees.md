@@ -16,4 +16,12 @@
 
 ### tree 구조 내 rules
 1. 자신보다 더 낮은 곳에 있지 않은 다른 노드와 연결될 수 없음(부모에서 자식으로만 연결 가능, 형제를 가르켜서도 안됨)
-2. 루트는 단 하나임 
+2. 루트는 단 하나임
+
+### tree 사용처
+1. HTML DOM
+2. Network Routing
+3. Abstract syntax tree
+4. AI
+5. folders in OS
+6. JSON
